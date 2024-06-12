@@ -95,8 +95,12 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 0%;
+    width: 8%;
+    flex-direction: row;
+    margin-bottom: 0;
+    box-sizing: border-box;
 }
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
