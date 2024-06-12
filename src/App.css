@@ -95,10 +95,10 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 8%;
-    flex-direction: row;
-    margin-bottom: 0;
-    box-sizing: border-box;
+    width: 11%;
+    margin-right: 16px !important;
+    align-content: flex-start !important;
+    
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -236,15 +236,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  display: flex;
+  display: flexbox;
   width: 100vw;
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  align-self: center;
+  justify-content: center;
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
